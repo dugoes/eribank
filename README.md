@@ -31,5 +31,6 @@
 
 * Ligar o dispositivo
 * Instalar no device o app "EriBank.apk" (está na raiz do projeto)
+* Abrir o **Appium** e clicar em **Start Server**
 * Abrir o projeto **eribank**
 * Procurar o arquivo **suitTest.xml** clicar com o botão direito e selecionar a opção **Run**
