@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Eribank" verbose="1" >
+    <test name="Login">
+        <classes>
+            <class name="LoginTest">
+                    <methods>
+                        <include name="loginInvalido" />
+                        <include name="loginRealizadoComSucesso" />
+                    </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Payment">
+        <classes>
+            <class name="PaymentTest">
+                <methods>
+                    <include name="cancelarPagamento" />
+                    <include name="realizarPagamento" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
